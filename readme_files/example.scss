@@ -1,0 +1,62 @@
+$font-stack: 'Lato','Helvetica Neue','Arial',sans-serif;;
+
+$mobile-width: 450px;
+
+$navbar-background: #2196F3;
+$about-color: $navbar-background;
+
+@mixin shadow(){
+	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font: 100% $font-stack;
+}
+
+ol, ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar{
+	/* an example comment */
+	padding: .5em;
+	text-align: right;
+
+	color: #fff;
+	background: $navbar-background;
+
+	transition: box-shadow 200ms;
+
+	h1{
+		margin: 0;
+		float: left;
+		font-weight: lighter;
+		text-align: left;
+	}
+
+	li{
+		display: inline-block;
+		font-weight: bold;
+		font-size: 1.125em;
+		&:not(:last-child):after{
+			content: '/';
+			display: inline-block;
+		}
+	}
+
+	a{
+		color: #fff;
+		text-decoration: none;
+		&:hover{
+
+		}
+	}
+
+	&.nav-shadow{
+		box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	}
+}
