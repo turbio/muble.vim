@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+files='example.php example.c example.py example.html example.scss example.js';
+
+for file in $files
+do
+	scrot -u -d 2 $file.png &
+	vim -c 'redraw | sleep 3000m | :q' $file;
+	convert $file.png -crop 600x300+10+13 $file.png
+done
