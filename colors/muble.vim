@@ -65,6 +65,16 @@ hi InterestingWord6	ctermfg=7		ctermbg=6		cterm=NONE	guifg=#ffffff	guibg=#66d9ef
 hi YcmErrorSection	ctermfg=1		ctermbg=NONE	cterm=underline	guifg=NONE	guibg=NONE		gui=undercurl	guisp=#ff0000
 hi YcmErrorSign		ctermfg=1		ctermbg=NONE	cterm=NONE	guifg=#ff0000	guibg=NONE		gui=NONE
 
+"neoformat
+hi NeomakeErrorSign		ctermfg=1		ctermbg=NONE	cterm=NONE	guifg=#ff0000	guibg=NONE		gui=NONE
+hi NeomakeWarningSign	ctermfg=1		ctermbg=NONE	cterm=NONE	guifg=#ff0000	guibg=NONE		gui=NONE
+hi NeomakeInfoSign		ctermfg=1		ctermbg=NONE	cterm=NONE	guifg=#ff0000	guibg=NONE		gui=NONE
+hi NeomakeMessageSign	ctermfg=1		ctermbg=NONE	cterm=NONE	guifg=#ff0000	guibg=NONE		gui=NONE
+hi NeomakeError 		ctermfg=NONE	ctermbg=NONE	cterm=underline	guifg=NONE	guibg=NONE		gui=undercurl	guisp=#ff0000
+hi NeomakeWarning		ctermfg=NONE	ctermbg=NONE	cterm=underline	guifg=NONE	guibg=NONE		gui=undercurl	guisp=#ff0000
+hi NeomakeInfo			ctermfg=NONE	ctermbg=NONE	cterm=underline	guifg=NONE	guibg=NONE		gui=undercurl	guisp=#ff0000
+hi NeomakeMessage		ctermfg=NONE	ctermbg=NONE	cterm=underline	guifg=NONE	guibg=NONE		gui=undercurl	guisp=#ff0000
+
 "javascript
 hi javaScriptNumber     ctermfg=13	ctermbg=NONE	cterm=NONE	guifg=#ae81ff	guibg=NONE		gui=NONE
 hi javaScriptFuncArg	ctermfg=3	ctermbg=NONE	cterm=NONE	guifg=#fd971f	guibg=NONE		gui=NONE
