@@ -60,10 +60,13 @@ hi InterestingWord4	ctermfg=7		ctermbg=4		cterm=NONE	guifg=#ffffff	guibg=#62ade3
 hi InterestingWord5	ctermfg=7		ctermbg=5		cterm=NONE	guifg=#ffffff	guibg=#8c54fe	gui=NONE
 hi InterestingWord6	ctermfg=7		ctermbg=6		cterm=NONE	guifg=#ffffff	guibg=#66d9ef	gui=NONE
 
-"ycm
+"linter gutter errors
 "hi YcmErrorLine		ctermfg=1	cterm=underline
 hi YcmErrorSection	ctermfg=1		ctermbg=NONE	cterm=underline	guifg=NONE	guibg=NONE		gui=undercurl	guisp=#ff0000
 hi YcmErrorSign		ctermfg=1		ctermbg=NONE	cterm=NONE	guifg=#ff0000	guibg=NONE		gui=NONE
+
+hi ALEErrorSign		ctermfg=1		ctermbg=NONE	cterm=NONE
+hi ALEWarningSign	ctermfg=1		ctermbg=NONE	cterm=NONE
 
 "neoformat
 hi NeomakeErrorSign		ctermfg=1		ctermbg=NONE	cterm=NONE	guifg=#ff0000	guibg=NONE		gui=NONE
