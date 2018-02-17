@@ -100,6 +100,14 @@ hi GitGutterChange		ctermfg=3	ctermbg=NONE	cterm=NONE	guifg=#fd971f	guibg=NONE		
 hi GitGutterDelete		ctermfg=1	ctermbg=NONE	cterm=NONE	guifg=#f92672	guibg=NONE		gui=NONE
 hi GitGutterChangeDelete	ctermfg=3	ctermbg=NONE	cterm=NONE	guifg=#fd971f	guibg=NONE	gui=NONE
 
+"diff
+hi DiffAdd			ctermfg=NONE	ctermbg=107		cterm=NONE
+hi DiffDelete  		ctermfg=167		ctermbg=167		cterm=NONE
+hi DiffChange		ctermfg=NONE	ctermbg=235		cterm=NONE
+hi DiffText			ctermfg=NONE	ctermbg=237		cterm=NONE
+
+hi Folded			ctermfg=NONE	ctermbg=233		cterm=NONE
+
 "hi jsFuncCall		ctermfg=14
 "hi jsOperator		ctermfg=1
 "hi zshCommands		ctermfg=1
