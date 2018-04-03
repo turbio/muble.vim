@@ -106,8 +106,8 @@ hi GitGutterChangeDelete	ctermfg=3	ctermbg=NONE	cterm=NONE	guifg=#fd971f	guibg=N
 "diff
 hi DiffAdd			ctermfg=NONE	ctermbg=107		cterm=NONE
 hi DiffDelete  		ctermfg=167		ctermbg=167		cterm=NONE
-hi DiffChange		ctermfg=NONE	ctermbg=235		cterm=NONE
-hi DiffText			ctermfg=NONE	ctermbg=237		cterm=NONE
+hi DiffChange		ctermfg=NONE	ctermbg=68		cterm=NONE
+hi DiffText			ctermfg=NONE	ctermbg=209		cterm=NONE
 
 hi Folded			ctermfg=NONE	ctermbg=233		cterm=NONE
 
