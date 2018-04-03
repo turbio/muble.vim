@@ -111,6 +111,8 @@ hi DiffText			ctermfg=NONE	ctermbg=237		cterm=NONE
 
 hi Folded			ctermfg=NONE	ctermbg=233		cterm=NONE
 
+hi VertSplit		ctermfg=237		ctermbg=237		cterm=NONE
+
 "hi jsFuncCall		ctermfg=14
 "hi jsOperator		ctermfg=1
 "hi zshCommands		ctermfg=1
